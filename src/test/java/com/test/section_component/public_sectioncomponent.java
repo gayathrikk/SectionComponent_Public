@@ -114,7 +114,7 @@ public class public_sectioncomponent {
 			System.out.println("-------------------------------------------------");
 			        System.out.println("The Brain tab is Clicked");
 			WebDriverWait wait9 = new WebDriverWait(driver,20);
-			WebElement  table3 = wait9.until(ExpectedConditions.elementToBeClickable(By.xpath("//td[text()=' Goat_Brain4']")));
+			WebElement  table3 = wait9.until(ExpectedConditions.elementToBeClickable(By.xpath("//td[text()='GB4']")));
 			table3.click();
 			System.out.println("-------------------------------------------------");
 			        System.out.println("The Goat Brain4 is Selected");
